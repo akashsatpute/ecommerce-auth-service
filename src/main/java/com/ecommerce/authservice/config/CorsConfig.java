@@ -18,7 +18,7 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:4200")
+                List.of("http://localhost:4200","https://deft-snickerdoodle-172c51.netlify.app")
         );
 
         configuration.setAllowedMethods(

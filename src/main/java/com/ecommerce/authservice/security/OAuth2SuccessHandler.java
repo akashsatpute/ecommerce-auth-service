@@ -50,7 +50,7 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
 
 		String encodedJwt = URLEncoder.encode(jwt, StandardCharsets.UTF_8);
 
-		response.sendRedirect("https://deft-snickerdoodle-172c51.netlify.app//login-success?token=" + encodedJwt);
+		response.sendRedirect("https://deft-snickerdoodle-172c51.netlify.app/login-success?token=" + encodedJwt);
 
 	}
 }
